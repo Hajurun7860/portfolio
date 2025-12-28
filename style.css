@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background: #0f172a;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header nav a:hover {
+  color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.resume-btn {
+  padding: 12px 30px;
+  background: white;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.resume-btn:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+
+.hero button:hover {
+  background: #e5e7eb;
+  transform: translateY(-2px);
+}
+.hero button:hover {
+  background: black;
+}
+
+/* Sections */
+.section {
+  padding: 60px 10%;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #0ea5e9;
+}
+
+.section p {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.light {
+  background: white;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills div {
+  background: #0f172a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+/* Projects */
+.project {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 6px solid #22c55e;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
